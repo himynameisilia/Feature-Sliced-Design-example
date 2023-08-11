@@ -1,3 +1,0 @@
-export function someFn(arg: number): string {
-  return arg + "abc" + 'ewrewer';
-}
