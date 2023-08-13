@@ -1,0 +1,23 @@
+{
+	"Print to console": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "fc",
+		"body": [
+			"import { classNames } from 'shared/lib/classNames/classNames';",
+			"import cls from './$TM_FILENAME_BASE.module.scss';",
+			" ",
+			"interface $TM_FILENAME_BASE$Props {",
+			"    className?: string;",
+			"}",
+			" ",
+			"export const $TM_FILENAME_BASE = ({ className }: $TM_FILENAME_BASE$Props) => {",
+			"    return (",
+			"        <div className={classNames(cls.$TM_FILENAME_BASE)}>",
+			"            ",
+			"        </div>",
+			"    );",
+			"};",
+		],
+		"description": "function component for Feature-Sliced-Design-example"
+	}
+}
