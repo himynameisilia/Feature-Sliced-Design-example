@@ -9,12 +9,12 @@ export enum AppLinkTheme {
 	RED = 'red',
 }
 
-interface AppLinkProps extends LinkProps {
+interface IAppLinkProps extends LinkProps {
 	className?: string;
 	theme?: AppLinkTheme;
 }
 
-export const AppLink: FC<AppLinkProps> = props => {
+export const AppLink: FC<IAppLinkProps> = props => {
 	const {
 		to,
 		className,
