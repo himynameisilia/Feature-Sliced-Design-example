@@ -12,11 +12,11 @@
 			" ",
 			"export const $TM_FILENAME_BASE = ({ className }: I$TM_FILENAME_BASE$Props) => {",
 			"    return (",
-			"        <div className={classNames(cls.$TM_FILENAME_BASE)}>",
+			"        <div className={classNames(cls.$TM_FILENAME_BASE, {}, [className])}>",
 			"            ",
 			"        </div>",
 			"    );",
-			"};",
+			"};"
 		],
 		"description": "function component for Feature-Sliced-Design-example"
 	}
